@@ -1,0 +1,55 @@
+body{
+    background-image: url('../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open sans , sans- serif';
+    color: #fff;
+}
+
+
+
+.conteudo .container{
+    display: flex;
+    padding: 25px;
+    gap: 35px;
+}
+
+.conteudo .container .info{
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+
+.conteudo .container .info h1{
+    font-family: 'Poppins', sans serif;
+    font-weight: 700;
+}
+
+
+.social-media{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    gap: 10px;
+    padding-bottom: 20px;
+    
+    
+}
+.social-media i{
+    height: 30px;
+    max-width: 100%;
+    color: #fff;
+}
+
+.social-media li{
+    list-style: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+    /* .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+   */
