@@ -1,43 +1,68 @@
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1023px) {
+
+    body {
+        background-image: url('../huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg');
+        background-position:top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: var(--Purple);
+        
+    }
+
+    .logo-header img {
+        padding: 0;
+        margin: 0;
+        max-width: 35%;
+    }
+
     .conteudo .container {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         margin-left: 20px;
-        /* justify-items: center; */
-        
+        justify-content: center;
+
     }
 
     .conteudo .container .info {
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         
     }
 
     .conteudo .container .mockup {
-        
-        max-width: 100%;
+
+        max-width: 80%;
         min-width: 0;
-        padding-top: 20px;
+        padding-top: 60px;
         padding-left: 80px;
         padding-left: 0;
         box-sizing: border-box;
+        align-self: center;
     }
 
     .conteudo .container .mockup img {
-        
+
         max-width: 100%;
         height: auto;
         display: block;
         object-fit: contain;
     }
 
-   .conteudo .info .register{
-    display: flex;
-    
-   }
+    .conteudo .info .register {
+        display: flex;
+        margin-top: 35px;
+        margin-bottom: -90px;
+        padding: 15px 90px;
+    }
 
-    .social-media{
+    .social-media {
         justify-content: center;
+        /* margin-left: 50px; */
+        margin: 30px 50px 40px 50px;
+        padding-bottom: 35px;
+
     }
 }
-    

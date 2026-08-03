@@ -1,9 +1,9 @@
-html{
-    padding: 0;
-}
+
 
 body{
     background-image: url('../huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-position:no-repeat;
+    background-size: cover;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open sans' , sans- serif;
     color: #fff;
@@ -46,7 +46,7 @@ body{
     border: 1px;
     padding: 15px 60px;
     border-radius: 50px;
-    color: hsl(257, 40%, 49%);
+    color: var(--Purple);
     font-weight: 400;
     font-size: 16px;
     transition: ease-in-out 0.3s;
@@ -54,8 +54,9 @@ body{
 }
 
 .conteudo .info .register:hover{
-    background-color: hsl(300, 69%, 71%);
+    background-color: var(--Magenta);
     color: #fff;
+    
 }
 
 
@@ -64,7 +65,8 @@ body{
     justify-content: flex-end;
     margin-right: 4.4rem;
     gap: 10px;
-    padding-bottom: 50px;
+    padding: 8px;
+    
     
     
 }
@@ -84,8 +86,8 @@ body{
 }
 
 .social-media li:hover  {
-    color: hsl(300, 69%, 71%) ;
-    border-color: hsl(300, 69%, 71%);
+    color: var(--Magenta) ;
+    border-color: var(--Magenta);
 }
 
 .social-media .insta{
