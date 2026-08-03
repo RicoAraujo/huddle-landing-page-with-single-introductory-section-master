@@ -88,8 +88,10 @@ Este projeto foi excelente para praticar:
 ✅ Estilização com CSS e variáveis
 ✅ Responsividade com media queries
 ✅ Posicionamento de elementos com Flexbox
+✅ Dimensionamento de elementos para harmonização de página
 ✅ Organização de uma landing page moderna
-Também foi uma boa oportunidade para reforçar conceitos de layout, espaçamento, alinhamento e adaptação visual para diferentes telas.
+
+Também foi uma boa oportunidade para reforçar conceitos de layout, espaçamento, alinhamento e adaptação visual para diferentes telas, assim como deixar o código mais limpo e funcional possível
 
 ---
 
