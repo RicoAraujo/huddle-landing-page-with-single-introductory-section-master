@@ -4,7 +4,7 @@
 
 Um projeto frontend responsivo do desafio do Frontend Mentor, com uma landing page moderna, limpa e bem estruturada. O layout foi desenvolvido com HTML5 e CSS3, utilizando Flexbox e media queries para garantir uma boa experiência em diferentes tamanhos de tela.
 
-![Huddle Landing Page](./images/project-screenshot.png)
+![Huddle Landing Page](./huddle-landing-page-with-single-introductory-section-master/images/project-screenshot.png)
 
 ---
 
