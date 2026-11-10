@@ -56,6 +56,7 @@ body{
 .conteudo .info .register:hover{
     background-color: var(--Magenta);
     color: #fff;
+    cursor: pointer;
     
 }
 
@@ -88,6 +89,7 @@ body{
 .social-media li:hover  {
     color: var(--Magenta) ;
     border-color: var(--Magenta);
+    cursor: pointer;
 }
 
 .social-media .insta{
